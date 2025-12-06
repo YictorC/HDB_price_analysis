@@ -47,7 +47,7 @@ We benchmarked three algorithms. **Random Forest** outperformed others by effect
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/hdb-price-prediction-ai.git
+    git clone https://github.com/YictorC/HDB_price_analysis.git
     ```
 2.  **Install dependencies:**
     ```bash
