@@ -1,4 +1,4 @@
-# 🇸🇬 Singapore HDB Resale Price Prediction: AI & Geospatial Analysis
+# Singapore HDB Resale Price Prediction: AI & Geospatial Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)
