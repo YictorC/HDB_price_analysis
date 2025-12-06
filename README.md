@@ -42,6 +42,19 @@ We benchmarked three algorithms. **Random Forest** outperformed others by effect
 *   `HDB_Project_Notebook.ipynb`: The core analysis notebook containing data cleaning, feature engineering, modeling, and visualization.
 *   `hdb_prices.csv`: (Placeholder) The dataset used for training.
 *   `README.md`: Project documentation.
+## 📂 Data Setup 
+
+Due to GitHub's file size limits, the training dataset is **not included** in this repository. You must download it manually to run the notebook.
+
+1.  **Download the Dataset**:
+    *   Visit the official Singapore Data portal: [Resale Flat Prices (Data.gov.sg)](https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view)
+    *   Download the CSV file covering the relevant period (e.g., Jan 2017 onwards).
+
+2.  **Rename and Place**:
+    *   Rename the downloaded file to: **`hdb_prices.csv`**
+    *   Move the file into the **root directory** of this project (same folder as the `.ipynb` file).
+
+> ⚠️ **Note:** The code assumes the filename is `hdb_prices.csv`. If you skip this step, the script will fail with a `FileNotFoundError`.
 
 ## 🛠️ Installation & Usage
 
