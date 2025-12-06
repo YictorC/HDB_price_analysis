@@ -14,14 +14,14 @@ By integrating external geospatial data (MRT stations, Elite Schools, CBD coordi
 
 ### 1. Advanced Geospatial Engineering
 Instead of relying solely on flat attributes, we engineered location-based features using the Haversine formula:
-*   **MRT Connectivity:** Calculated precise distance to the nearest of **150+ MRT/LRT stations**. Analysis revealed a non-linear "U-shaped" price trend relative to distance.
+*   **MRT Connectivity:** Calculated precise distance to the nearest of **MRT/LRT stations**. Analysis revealed a non-linear "U-shaped" price trend relative to distance.
 *   **The "School Premium":** Quantified the "Kiasu" effect by measuring distance to top-tier primary schools. Found a correlation of **-0.21**, stronger than transport proximity.
 
 
 ### 2. Market Dynamics & Economic Analysis
 *   **Temporal Trends:** Identified a structural market break during the 2020 COVID-19 "Circuit Breaker," explaining the post-pandemic price surge.
 *   **Lease Decay (Bala's Curve):** Visualized non-linear value depreciation, proving that older flats in mature estates retain value better than theoretical models suggest.
-*   **Regional Clustering:** Used Geospatial Clustering (Lat/Long) to identify "High Value" vs. "Budget" zones based on Price Per Sqm, debunking the "Size vs. Location" paradox in towns like Punggol.
+
 
 ### 3. Automated Data Pipeline
 *   Utilized `kagglehub` to automatically fetch and cache external coordinate datasets, eliminating manual downloads.
